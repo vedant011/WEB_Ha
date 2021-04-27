@@ -1,0 +1,11 @@
+---
+application:
+  name: "web-ha"
+  project: "ved-app"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-web-ha"
+  routes:
+  - application_name: "web-ha"
+    paths:
+    - "/*"
