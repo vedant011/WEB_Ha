@@ -1,11 +1,16 @@
 ---
 application:
-  name: "proooojj"
-  project: "prrrroj"
+  name: "v"
+  project: "corona"
   organization: "QoveryCommunity"
+  storage:
+  - name: "database.sqlite"
+    size: "500"
+    type: "hdd"
+    mount_point: "D:\\Dev\\WEB_Ha-1\\database.sqlite"
 routers:
-- name: "main-proooojj"
+- name: "main-v"
   routes:
-  - application_name: "proooojj"
+  - application_name: "v"
     paths:
     - "/*"
