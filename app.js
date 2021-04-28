@@ -559,7 +559,7 @@ app.post('/deny_bed', (req,res)=>{
     }
 })
 
-
+const port = process.env.PORT
 //syncing db
 db.sync()
     .then(()=>{
