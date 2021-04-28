@@ -2,7 +2,7 @@ const sequelize = require('sequelize');
 
 const db = new sequelize({
     dialect: 'sqlite',
-    storage: __dirname + '/database.db'
+    storage: __dirname + '/database.sqlite'
 });
 
 // table for hospitals

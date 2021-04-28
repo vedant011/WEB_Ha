@@ -130,7 +130,7 @@ app.post('/admin_login', (req,res)=>{
         // if(req.session) req.session.destroy((err)=>{
         //     if (err) throw err;
         // })
-        if(req.body.email=="abhibansal529@gmail.com" && req.body.pass=="abhilasha"){
+        if(req.body.email=="vedant.jore19@vit.edu" && req.body.pass=="Jore@123"){
             req.session.admin_logged_in = true;
             res.sendFile(__dirname + '/public/admin_dashboard.html');
         }    
